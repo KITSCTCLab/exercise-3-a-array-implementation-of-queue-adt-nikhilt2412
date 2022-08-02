@@ -136,8 +136,8 @@ dequeue the first character from queue
 compare both characters
 If the comparison fails, set is_palindrome as False.
 '''
-char target1 = solution.pop_character
-char target2 = solution.dequeue_character
+char target1 = solution.pop_character()
+char target2 = solution.dequeue_character()
 if target1 != target2:
     is_palindrome = False
 
