@@ -40,7 +40,7 @@ class Solution:
         """
         if self.front == -1:
             return True
-        else
+        else:
             return False
 
     def is_stack_full(self):
